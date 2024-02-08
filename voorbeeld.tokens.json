@@ -1,22 +1,26 @@
 {
   "brand": {
-    "voorbeeld": {
+    "almere": {
       "typography": {
         "font-size": {
+          "xsm": {
+            "value": "18px",
+            "type": "fontSizes"
+          },
           "sm": {
-            "value": "14px",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "16px",
-            "type": "fontSizes"
-          },
-          "lg": {
             "value": "20px",
             "type": "fontSizes"
           },
-          "xl": {
+          "md": {
+            "value": "22px",
+            "type": "fontSizes"
+          },
+          "lg": {
             "value": "24px",
+            "type": "fontSizes"
+          },
+          "xl": {
+            "value": "26px",
             "type": "fontSizes"
           },
           "2xl": {
@@ -28,45 +32,53 @@
             "type": "fontSizes"
           },
           "4xl": {
-            "value": "48px",
+            "value": "52px",
             "type": "fontSizes"
           }
         },
         "line-height": {
           "xs": {
-            "value": "100%",
+            "value": "21",
             "type": "lineHeights"
           },
           "sm": {
-            "value": "125%",
+            "value": "22",
             "type": "lineHeights"
           },
           "md": {
-            "value": "150%",
+            "value": "25",
             "type": "lineHeights"
           },
           "lg": {
-            "value": "200%",
+            "value": "31",
             "type": "lineHeights"
           }
         },
         "font-weight": {
-          "normal": {
+          "regular": {
             "value": "Regular",
             "type": "fontWeights"
           },
           "bold": {
             "value": "Bold",
             "type": "fontWeights"
+          },
+          "semibold": {
+            "value": "SemiBold",
+            "type": "fontWeights"
+          },
+          "medium": {
+            "value": "Medium",
+            "type": "fontWeights"
           }
         },
         "font-family": {
           "primary": {
-            "value": "Source Serif Pro, Tahoma, Verdana, sans-serif",
+            "value": "Barlow",
             "type": "fontFamilies"
           },
           "secondary": {
-            "value": "Fira Sans, Tahoma, Verdana, sans-serif",
+            "value": "Barlow",
             "type": "fontFamilies"
           }
         }
@@ -517,8 +529,86 @@
               "type": "color"
             }
           }
+        },
+        "turqouise": {
+          "100": {
+            "value": "#F5F2FF",
+            "type": "color"
+          },
+          "wcag": {
+            "value": "#188197",
+            "type": "color"
+          }
+        },
+        "mensen": {
+          "100": {
+            "value": "#FF7876",
+            "type": "color"
+          },
+          "wcag": {
+            "value": "#FC605F",
+            "type": "color"
+          }
+        },
+        "nieuwe-stad": {
+          "100": {
+            "value": "#BEB889",
+            "type": "color"
+          },
+          "wcag": {
+            "value": "#9E9657",
+            "type": "color"
+          }
+        },
+        "natuur": {
+          "100": {
+            "value": "#A8C48F",
+            "type": "color"
+          },
+          "wcag": {
+            "value": "#7B9C54",
+            "type": "color"
+          }
+        },
+        "cultuur": {
+          "100": {
+            "value": "#3E5566",
+            "type": "color"
+          }
+        },
+        "water": {
+          "100": {
+            "value": "#7AA9BF",
+            "type": "color"
+          }
+        },
+        "steen": {
+          "100": {
+            "value": "#363A36",
+            "type": "color"
+          }
         }
       },
+      "border-radius": {
+        "sm": {
+          "value": "5px",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "8px",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "16px",
+          "type": "borderRadius"
+        },
+        "round": {
+          "value": "999px",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "voorbeeld": {
       "space": {
         "inline": {
           "flea": {
@@ -768,24 +858,6 @@
           }
         }
       },
-      "border-radius": {
-        "sm": {
-          "value": "4px",
-          "type": "borderRadius"
-        },
-        "md": {
-          "value": "8px",
-          "type": "borderRadius"
-        },
-        "lg": {
-          "value": "16px",
-          "type": "borderRadius"
-        },
-        "round": {
-          "value": "999px",
-          "type": "borderRadius"
-        }
-      },
       "border-width": {
         "sm": {
           "value": "1px",
@@ -879,7 +951,7 @@
             "y": "2",
             "blur": "6",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{almere.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -890,7 +962,7 @@
             "y": "8",
             "blur": "16",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{almere.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -901,7 +973,7 @@
             "y": "16",
             "blur": "48",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{almere.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -913,75 +985,67 @@
     "utrecht": {
       "root": {
         "background-color": {
-          "value": "{voorbeeld.color.gray.50}",
+          "value": "{almere.color.gray.50}",
           "type": "color"
         }
       },
       "document": {
         "background-color": {
-          "value": "{voorbeeld.color.white}",
+          "value": "{almere.color.white}",
           "type": "color"
         },
         "color": {
-          "value": "{voorbeeld.color.gray.900}",
+          "value": "{almere.color.gray.900}",
           "type": "color"
         },
         "inverse": {
           "background-color": {
-            "value": "{voorbeeld.color.gray.950}",
+            "value": "{almere.color.gray.950}",
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.white}",
+            "value": "{almere.color.white}",
             "type": "color"
           }
         },
         "subtle": {
           "color": {
-            "value": "{voorbeeld.color.gray.600}",
+            "value": "{almere.color.gray.600}",
             "type": "color"
           }
         },
-        "font-family": {
-          "value": "{voorbeeld.typography.font-family.secondary}",
-          "type": "fontFamilies"
-        },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.md}",
+          "value": "{almere.typography.font-size.md}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.normal}",
+          "value": "{almere.typography.font-weight.regular}",
           "type": "fontWeights"
         },
         "strong": {
           "font-weight": {
-            "value": "{voorbeeld.typography.font-weight.bold}",
+            "value": "{almere.typography.font-weight.bold}",
             "type": "fontWeights"
           }
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{almere.typography.line-height.md}",
           "type": "lineHeights"
         }
       },
       "heading": {
         "color": {
-          "value": "{voorbeeld.color.gray.900}",
+          "value": "{almere.color.gray.900}",
           "type": "color"
         },
-        "font-family": {
-          "value": "{voorbeeld.typography.font-family.primary}",
-          "type": "fontFamilies"
-        },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.bold}",
+          "value": "{almere.typography.font-weight.bold}",
           "type": "fontWeights"
         }
       },
       "container": {
         "border-color": {
-          "value": "{voorbeeld.color.gray.200}",
+          "value": "{almere.color.gray.200}",
           "type": "color"
         },
         "border-width": {
@@ -991,7 +1055,7 @@
       },
       "line": {
         "border-color": {
-          "value": "{voorbeeld.color.gray.200}",
+          "value": "{almere.color.gray.200}",
           "type": "color"
         },
         "border-width": {
@@ -1001,38 +1065,38 @@
       },
       "interaction": {
         "color": {
-          "value": "{voorbeeld.color.violet.700}",
+          "value": "{almere.color.violet.700}",
           "type": "color"
         },
         "active": {
           "color": {
-            "value": "{voorbeeld.color.violet.900}",
+            "value": "{almere.color.violet.900}",
             "type": "color"
           }
         },
         "hover": {
           "color": {
-            "value": "{voorbeeld.color.violet.800}",
+            "value": "{almere.color.violet.800}",
             "type": "color"
           }
         }
       },
       "focus": {
         "background-color": {
-          "value": "{voorbeeld.color.yellow.200}",
+          "value": "{almere.color.yellow.200}",
           "type": "color"
         },
         "color": {
-          "value": "{voorbeeld.color.black}",
+          "value": "{almere.color.black}",
           "type": "color"
         },
         "outline-color": {
-          "value": "{voorbeeld.color.violet.700}",
+          "value": "{almere.color.violet.700}",
           "type": "color"
         },
         "inverse": {
           "outline-color": {
-            "value": "{voorbeeld.color.white}",
+            "value": "{almere.color.white}",
             "type": "color"
           }
         },
@@ -1055,11 +1119,11 @@
           "type": "color"
         },
         "background-color": {
-          "value": "{voorbeeld.color.white}",
+          "value": "{almere.color.white}",
           "type": "color"
         },
         "border-color": {
-          "value": "{voorbeeld.color.gray.500}",
+          "value": "{almere.color.gray.500}",
           "type": "color"
         },
         "border-width": {
@@ -1067,7 +1131,7 @@
           "type": "borderWidth"
         },
         "color": {
-          "value": "{voorbeeld.color.gray.950}",
+          "value": "{almere.color.gray.950}",
           "type": "color"
         },
         "active": {
@@ -1076,11 +1140,11 @@
             "type": "color"
           },
           "background-color": {
-            "value": "{voorbeeld.color.gray.100}",
+            "value": "{almere.color.gray.100}",
             "type": "color"
           },
           "border-color": {
-            "value": "{voorbeeld.color.gray.500}",
+            "value": "{almere.color.gray.500}",
             "type": "color"
           },
           "border-width": {
@@ -1088,35 +1152,35 @@
             "type": "borderWidth"
           },
           "color": {
-            "value": "{voorbeeld.color.gray.950}",
+            "value": "{almere.color.gray.950}",
             "type": "color"
           }
         },
         "disabled": {
           "accent-color": {
-            "value": "{voorbeeld.color.gray.500}",
+            "value": "{almere.color.gray.500}",
             "type": "color"
           },
           "background-color": {
-            "value": "{voorbeeld.color.gray.50}",
+            "value": "{almere.color.gray.50}",
             "type": "color"
           },
           "border-color": {
-            "value": "{voorbeeld.color.gray.500}",
+            "value": "{almere.color.gray.500}",
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.gray.500}",
+            "value": "{almere.color.gray.500}",
             "type": "color"
           }
         },
         "focus": {
           "background-color": {
-            "value": "{voorbeeld.color.white}",
+            "value": "{almere.color.white}",
             "type": "color"
           },
           "border-color": {
-            "value": "{voorbeeld.color.black}",
+            "value": "{almere.color.black}",
             "type": "color"
           },
           "border-width": {
@@ -1124,7 +1188,7 @@
             "type": "borderWidth"
           },
           "color": {
-            "value": "{voorbeeld.color.black}",
+            "value": "{almere.color.black}",
             "type": "color"
           }
         },
@@ -1134,11 +1198,11 @@
             "type": "color"
           },
           "background-color": {
-            "value": "{voorbeeld.color.gray.50}",
+            "value": "{almere.color.gray.50}",
             "type": "color"
           },
           "border-color": {
-            "value": "{voorbeeld.color.gray.500}",
+            "value": "{almere.color.gray.500}",
             "type": "color"
           },
           "border-width": {
@@ -1146,13 +1210,13 @@
             "type": "borderWidth"
           },
           "color": {
-            "value": "{voorbeeld.color.gray.950}",
+            "value": "{almere.color.gray.950}",
             "type": "color"
           }
         },
         "invalid": {
           "background-color": {
-            "value": "{voorbeeld.color.white}",
+            "value": "{almere.color.white}",
             "type": "color"
           },
           "border-color": {
@@ -1170,21 +1234,21 @@
         },
         "read-only": {
           "background-color": {
-            "value": "{voorbeeld.color.gray.50}",
+            "value": "{almere.color.gray.50}",
             "type": "color"
           },
           "border-color": {
-            "value": "{voorbeeld.color.gray.500}",
+            "value": "{almere.color.gray.500}",
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.gray.950}",
+            "value": "{almere.color.gray.950}",
             "type": "color"
           }
         },
         "placeholder": {
           "color": {
-            "value": "{voorbeeld.color.gray.600}",
+            "value": "{almere.color.gray.600}",
             "type": "color"
           }
         }
@@ -1212,59 +1276,73 @@
       "feedback": {
         "informative": {
           "background-color": {
-            "value": "{voorbeeld.color.blue.100}",
+            "value": "{almere.color.blue.100}",
             "type": "color"
           },
           "border-color": {
-            "value": "{voorbeeld.color.blue.600}",
+            "value": "{almere.color.blue.600}",
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.blue.600}",
+            "value": "{almere.color.blue.600}",
             "type": "color"
           }
         },
         "negative": {
           "background-color": {
-            "value": "{voorbeeld.color.red.100}",
+            "value": "{almere.color.red.100}",
             "type": "color"
           },
           "border-color": {
-            "value": "{voorbeeld.color.red.600}",
+            "value": "{almere.color.red.600}",
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.red.600}",
+            "value": "{almere.color.red.600}",
             "type": "color"
           }
         },
         "positive": {
           "background-color": {
-            "value": "{voorbeeld.color.green.100}",
+            "value": "{almere.color.green.100}",
             "type": "color"
           },
           "border-color": {
-            "value": "{voorbeeld.color.green.600}",
+            "value": "{almere.color.green.600}",
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.green.600}",
+            "value": "{almere.color.green.600}",
             "type": "color"
           }
         },
         "warning": {
           "background-color": {
-            "value": "{voorbeeld.color.yellow.100}",
+            "value": "{almere.color.yellow.100}",
             "type": "color"
           },
           "border-color": {
-            "value": "{voorbeeld.color.yellow.600}",
+            "value": "{almere.color.yellow.600}",
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.yellow.600}",
+            "value": "{almere.color.yellow.600}",
             "type": "color"
           }
+        }
+      }
+    },
+    "almere": {
+      "document": {
+        "font-family": {
+          "value": "{almere.typography.font-family.primary}",
+          "type": "fontFamilies"
+        }
+      },
+      "heading": {
+        "font-family": {
+          "value": "{almere.typography.font-family.primary}",
+          "type": "fontFamilies"
         }
       }
     }
@@ -1354,7 +1432,7 @@
           "hover": {
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.100}"
+              "value": "{almere.color.gray.100}"
             },
             "border-color": {
               "value": "transparent",
@@ -1367,7 +1445,7 @@
           },
           "expanded": {
             "background-color": {
-              "value": "{voorbeeld.color.gray.50}",
+              "value": "{almere.color.gray.50}",
               "type": "color"
             },
             "border-color": {
@@ -1381,7 +1459,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{voorbeeld.color.gray.50}"
+            "value": "{almere.color.gray.50}"
           },
           "border-color": {
             "value": "transparent",
@@ -1408,7 +1486,7 @@
           "active": {
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.200}"
+              "value": "{almere.color.gray.200}"
             },
             "border-color": {
               "value": "transparent",
@@ -1424,7 +1502,7 @@
             "value": "{voorbeeld.border-width.sm}"
           },
           "font-family": {
-            "value": "{utrecht.document.font-family}",
+            "value": "{almere.document.font-family}",
             "type": "fontFamilies"
           },
           "font-weight": {
@@ -1440,7 +1518,7 @@
       "alert": {
         "heading": {
           "font-family": {
-            "value": "{utrecht.heading.font-family}",
+            "value": "{almere.heading.font-family}",
             "type": "fontFamilies"
           },
           "font-weight": {
@@ -1448,11 +1526,11 @@
             "type": "fontWeights"
           },
           "line-height": {
-            "value": "{voorbeeld.typography.line-height.sm}",
+            "value": "{almere.typography.line-height.sm}",
             "type": "lineHeights"
           },
           "font-size": {
-            "value": "{voorbeeld.typography.font-size.xl}",
+            "value": "{almere.typography.font-size.xl}",
             "type": "fontSizes"
           }
         },
@@ -1613,7 +1691,7 @@
           "type": "color"
         },
         "border-radius": {
-          "value": "{voorbeeld.border-radius.round}",
+          "value": "{almere.border-radius.round}",
           "type": "borderRadius"
         },
         "size": {
@@ -1631,12 +1709,12 @@
           "type": "color"
         },
         "color": {
-          "value": "{voorbeeld.color.white}",
+          "value": "{almere.color.white}",
           "type": "color"
         },
         "text": {
           "font-family": {
-            "value": "{utrecht.document.font-family}",
+            "value": "{almere.document.font-family}",
             "type": "fontFamilies"
           },
           "font-weight": {
@@ -1670,7 +1748,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.white}",
+            "value": "{almere.color.white}",
             "type": "color"
           }
         }
@@ -1681,11 +1759,11 @@
     "todo": {
       "backdrop": {
         "background-color": {
-          "value": "{voorbeeld.color.black}",
+          "value": "{almere.color.black}",
           "type": "color"
         },
         "color": {
-          "value": "{voorbeeld.color.white}",
+          "value": "{almere.color.white}",
           "type": "color"
         },
         "opacity": {
@@ -1716,15 +1794,15 @@
       "blockquote": {
         "attribution": {
           "font-size": {
-            "value": "{voorbeeld.typography.font-size.sm}",
+            "value": "{almere.typography.font-size.sm}",
             "type": "fontSizes"
           },
           "font-family": {
-            "value": "{utrecht.document.font-family}",
+            "value": "{almere.document.font-family}",
             "type": "fontFamilies"
           },
           "line-height": {
-            "value": "{voorbeeld.typography.line-height.md}",
+            "value": "{almere.typography.line-height.md}",
             "type": "lineHeights"
           },
           "font-weight": {
@@ -1742,11 +1820,11 @@
         },
         "content": {
           "font-family": {
-            "value": "{utrecht.heading.font-family}",
+            "value": "{almere.heading.font-family}",
             "type": "fontFamilies"
           },
           "line-height": {
-            "value": "{voorbeeld.typography.line-height.sm}",
+            "value": "{almere.typography.line-height.sm}",
             "type": "lineHeights"
           },
           "font-weight": {
@@ -1754,7 +1832,7 @@
             "type": "fontWeights"
           },
           "font-size": {
-            "value": "{voorbeeld.typography.font-size.xl}",
+            "value": "{almere.typography.font-size.xl}",
             "type": "fontSizes"
           },
           "color": {
@@ -1887,7 +1965,7 @@
           "type": "spacing"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-weight": {
@@ -1912,7 +1990,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.white}"
+              "value": "{almere.color.white}"
             }
           },
           "background-color": {
@@ -1925,12 +2003,12 @@
           },
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.white}"
+            "value": "{almere.color.white}"
           },
           "disabled": {
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.50}"
+              "value": "{almere.color.gray.50}"
             },
             "border-color": {
               "value": "transparent",
@@ -1938,7 +2016,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.500}"
+              "value": "{almere.color.gray.500}"
             }
           },
           "focus": {
@@ -1970,7 +2048,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.white}"
+              "value": "{almere.color.white}"
             }
           }
         },
@@ -1978,7 +2056,7 @@
           "hover": {
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.50}"
+              "value": "{almere.color.gray.50}"
             },
             "border-color": {
               "type": "color",
@@ -1991,7 +2069,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{voorbeeld.color.white}"
+            "value": "{almere.color.white}"
           },
           "border-color": {
             "type": "color",
@@ -2004,7 +2082,7 @@
           "disabled": {
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.50}"
+              "value": "{almere.color.gray.50}"
             },
             "border-color": {
               "type": "color",
@@ -2012,7 +2090,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.500}"
+              "value": "{almere.color.gray.500}"
             }
           },
           "focus": {
@@ -2036,7 +2114,7 @@
           "active": {
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.100}"
+              "value": "{almere.color.gray.100}"
             },
             "border-color": {
               "type": "color",
@@ -2054,15 +2132,15 @@
         },
         "border-color": {
           "type": "color",
-          "value": "{voorbeeld.color.gray.900}"
+          "value": "{almere.color.gray.900}"
         },
         "color": {
           "type": "color",
-          "value": "{voorbeeld.color.gray.900}"
+          "value": "{almere.color.gray.900}"
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{voorbeeld.border-radius.md}"
+          "value": "{almere.border-radius.md}"
         },
         "border-width": {
           "type": "borderWidth",
@@ -2079,7 +2157,7 @@
           }
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-size": {
@@ -2098,7 +2176,7 @@
           "hover": {
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.dark.alpha.50}"
+              "value": "{almere.color.dark.alpha.50}"
             },
             "border-color": {
               "type": "color",
@@ -2124,7 +2202,7 @@
           "disabled": {
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.50}"
+              "value": "{almere.color.gray.50}"
             },
             "border-color": {
               "type": "color",
@@ -2132,7 +2210,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.500}"
+              "value": "{almere.color.gray.500}"
             }
           },
           "focus": {
@@ -2152,7 +2230,7 @@
           "active": {
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.dark.alpha.100}"
+              "value": "{almere.color.dark.alpha.100}"
             },
             "border-color": {
               "type": "color",
@@ -2186,7 +2264,7 @@
         },
         "disabled": {
           "background-color": {
-            "value": "{voorbeeld.color.gray.50}",
+            "value": "{almere.color.gray.50}",
             "type": "color"
           },
           "border-color": {
@@ -2194,7 +2272,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.gray.500}",
+            "value": "{almere.color.gray.500}",
             "type": "color"
           }
         },
@@ -2214,7 +2292,7 @@
         },
         "hover": {
           "background-color": {
-            "value": "{voorbeeld.color.gray.50}",
+            "value": "{almere.color.gray.50}",
             "type": "color"
           },
           "border-color": {
@@ -2228,7 +2306,7 @@
         },
         "active": {
           "background-color": {
-            "value": "{voorbeeld.color.gray.100}",
+            "value": "{almere.color.gray.100}",
             "type": "color"
           },
           "border-color": {
@@ -2358,7 +2436,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.white}",
+            "value": "{almere.color.white}",
             "type": "color"
           },
           "border-width": {
@@ -2375,7 +2453,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{voorbeeld.color.white}",
+              "value": "{almere.color.white}",
               "type": "color"
             }
           },
@@ -2411,7 +2489,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{voorbeeld.color.white}",
+              "value": "{almere.color.white}",
               "type": "color"
             }
           },
@@ -2429,7 +2507,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{voorbeeld.color.white}",
+              "value": "{almere.color.white}",
               "type": "color"
             }
           }
@@ -2444,7 +2522,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.white}",
+            "value": "{almere.color.white}",
             "type": "color"
           },
           "border-width": {
@@ -2461,7 +2539,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{voorbeeld.color.white}",
+              "value": "{almere.color.white}",
               "type": "color"
             }
           },
@@ -2475,7 +2553,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{voorbeeld.color.white}",
+              "value": "{almere.color.white}",
               "type": "color"
             },
             "border-width": {
@@ -2493,7 +2571,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{voorbeeld.color.white}",
+              "value": "{almere.color.white}",
               "type": "color"
             },
             "border-width": {
@@ -2577,7 +2655,7 @@
     "utrecht": {
       "counter-badge": {
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.sm}",
+          "value": "{almere.typography.font-size.sm}",
           "type": "fontSizes"
         },
         "line-height": {
@@ -2602,15 +2680,15 @@
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{voorbeeld.border-radius.round}"
+          "value": "{almere.border-radius.round}"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "background-color": {
           "type": "color",
-          "value": "{voorbeeld.color.violet.100}"
+          "value": "{almere.color.violet.100}"
         },
         "border-color": {
           "type": "color",
@@ -2635,7 +2713,7 @@
     "todo": {
       "data-list": {
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "item-value": {
@@ -2897,7 +2975,7 @@
         "header": {
           "label": {
             "font-family": {
-              "value": "{utrecht.document.font-family}",
+              "value": "{almere.document.font-family}",
               "type": "fontFamilies"
             },
             "font-size": {
@@ -2955,7 +3033,7 @@
           "value": "{utrecht.document.subtle.color}"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-size": {
@@ -2995,7 +3073,7 @@
           "value": "{utrecht.feedback.negative.color}"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-size": {
@@ -3021,7 +3099,7 @@
           "value": "{utrecht.document.color}"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-size": {
@@ -3055,7 +3133,7 @@
           "type": "lineHeights"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-weight": {
@@ -3064,7 +3142,7 @@
         },
         "disabled": {
           "color": {
-            "value": "{voorbeeld.color.gray.600}",
+            "value": "{almere.color.gray.600}",
             "type": "color"
           }
         }
@@ -3089,7 +3167,7 @@
           "value": "{utrecht.heading.color}"
         },
         "font-family": {
-          "value": "{utrecht.heading.font-family}",
+          "value": "{almere.heading.font-family}",
           "type": "fontFamilies"
         },
         "font-weight": {
@@ -3097,11 +3175,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.sm}",
+          "value": "{almere.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.3xl}",
+          "value": "{almere.typography.font-size.3xl}",
           "type": "fontSizes"
         }
       },
@@ -3111,7 +3189,7 @@
           "value": "{utrecht.heading.color}"
         },
         "font-family": {
-          "value": "{utrecht.heading.font-family}",
+          "value": "{almere.heading.font-family}",
           "type": "fontFamilies"
         },
         "font-weight": {
@@ -3119,11 +3197,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.sm}",
+          "value": "{almere.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.2xl}",
+          "value": "{almere.typography.font-size.2xl}",
           "type": "fontSizes"
         }
       },
@@ -3133,7 +3211,7 @@
           "value": "{utrecht.heading.color}"
         },
         "font-family": {
-          "value": "{utrecht.heading.font-family}",
+          "value": "{almere.heading.font-family}",
           "type": "fontFamilies"
         },
         "font-weight": {
@@ -3141,11 +3219,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.sm}",
+          "value": "{almere.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.xl}",
+          "value": "{almere.typography.font-size.xl}",
           "type": "fontSizes"
         }
       },
@@ -3155,7 +3233,7 @@
           "value": "{utrecht.heading.color}"
         },
         "font-family": {
-          "value": "{utrecht.heading.font-family}",
+          "value": "{almere.heading.font-family}",
           "type": "fontFamilies"
         },
         "font-weight": {
@@ -3163,11 +3241,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{almere.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.lg}",
+          "value": "{almere.typography.font-size.lg}",
           "type": "fontSizes"
         }
       },
@@ -3177,7 +3255,7 @@
           "value": "{utrecht.heading.color}"
         },
         "font-family": {
-          "value": "{utrecht.heading.font-family}",
+          "value": "{almere.heading.font-family}",
           "type": "fontFamilies"
         },
         "font-weight": {
@@ -3185,11 +3263,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{almere.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.md}",
+          "value": "{almere.typography.font-size.md}",
           "type": "fontSizes"
         }
       },
@@ -3199,7 +3277,7 @@
           "value": "{utrecht.heading.color}"
         },
         "font-family": {
-          "value": "{utrecht.heading.font-family}",
+          "value": "{almere.heading.font-family}",
           "type": "fontFamilies"
         },
         "font-weight": {
@@ -3207,11 +3285,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{almere.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.sm}",
+          "value": "{almere.typography.font-size.sm}",
           "type": "fontSizes"
         }
       }
@@ -3321,7 +3399,7 @@
           "type": "fontSizes"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "text-decoration-thickness": {
@@ -3343,7 +3421,7 @@
     "todo": {
       "modal-dialog": {
         "border-radius": {
-          "value": "{voorbeeld.border-radius.lg}",
+          "value": "{almere.border-radius.lg}",
           "type": "borderRadius"
         },
         "box-shadow": {
@@ -3377,7 +3455,7 @@
               "type": "color"
             },
             "font-family": {
-              "value": "{utrecht.document.font-family}",
+              "value": "{almere.document.font-family}",
               "type": "fontFamilies"
             },
             "font-weight": {
@@ -3481,7 +3559,7 @@
           "value": "{utrecht.document.color}"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-weight": {
@@ -3636,7 +3714,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.500}"
+              "value": "{almere.color.gray.500}"
             }
           }
         },
@@ -3660,7 +3738,7 @@
             },
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.100}"
+              "value": "{almere.color.gray.100}"
             },
             "border-color": {
               "type": "color",
@@ -3767,7 +3845,7 @@
           }
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "line-height": {
@@ -3825,7 +3903,7 @@
           "value": "{utrecht.document.color}"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-size": {
@@ -3847,11 +3925,11 @@
           "value": "{utrecht.document.color}"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.lg}",
+          "value": "{almere.typography.font-size.lg}",
           "type": "fontSizes"
         },
         "font-weight": {
@@ -3869,11 +3947,11 @@
           "value": "{utrecht.document.color}"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.sm}",
+          "value": "{almere.typography.font-size.sm}",
           "type": "fontSizes"
         },
         "font-weight": {
@@ -3970,7 +4048,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.white}",
+            "value": "{almere.color.white}",
             "type": "color"
           },
           "hover": {
@@ -3983,7 +4061,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{voorbeeld.color.white}",
+              "value": "{almere.color.white}",
               "type": "color"
             },
             "border-width": {
@@ -4001,7 +4079,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{voorbeeld.color.white}",
+              "value": "{almere.color.white}",
               "type": "color"
             },
             "border-width": {
@@ -4037,7 +4115,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{voorbeeld.color.white}",
+              "value": "{almere.color.white}",
               "type": "color"
             }
           },
@@ -4062,7 +4140,7 @@
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{voorbeeld.border-radius.round}"
+          "value": "{almere.border-radius.round}"
         },
         "border-width": {
           "value": "{utrecht.form-control.border-width}",
@@ -4207,7 +4285,7 @@
           "type": "borderWidth"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-weight": {
@@ -4274,7 +4352,7 @@
             "type": "fontSizes"
           },
           "font-family": {
-            "value": "{utrecht.document.font-family}",
+            "value": "{almere.document.font-family}",
             "type": "fontFamilies"
           },
           "font-weight": {
@@ -4353,7 +4431,7 @@
           "type": "fontWeights"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-size": {
@@ -4437,7 +4515,7 @@
     "utrecht": {
       "status-badge": {
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.sm}",
+          "value": "{almere.typography.font-size.sm}",
           "type": "fontSizes"
         },
         "line-height": {
@@ -4453,12 +4531,12 @@
           "type": "borderWidth"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{voorbeeld.border-radius.sm}"
+          "value": "{almere.border-radius.sm}"
         },
         "padding-inline": {
           "value": "{voorbeeld.space.inline.ant}",
@@ -4526,7 +4604,7 @@
         },
         "background-color": {
           "type": "color",
-          "value": "{voorbeeld.color.violet.100}"
+          "value": "{almere.color.violet.100}"
         },
         "border-color": {
           "type": "color",
@@ -4552,7 +4630,7 @@
             "type": "color"
           },
           "font-family": {
-            "value": "{utrecht.document.font-family}",
+            "value": "{almere.document.font-family}",
             "type": "fontFamilies"
           },
           "font-weight": {
@@ -4566,7 +4644,7 @@
         },
         "caption": {
           "line-height": {
-            "value": "{voorbeeld.typography.line-height.sm}",
+            "value": "{almere.typography.line-height.sm}",
             "type": "lineHeights"
           },
           "margin-block-end": {
@@ -4578,7 +4656,7 @@
             "type": "color"
           },
           "font-family": {
-            "value": "{utrecht.heading.font-family}",
+            "value": "{almere.heading.font-family}",
             "type": "fontFamilies"
           },
           "font-weight": {
@@ -4586,7 +4664,7 @@
             "type": "fontWeights"
           },
           "font-size": {
-            "value": "{voorbeeld.typography.font-size.xl}",
+            "value": "{almere.typography.font-size.xl}",
             "type": "fontSizes"
           }
         },
@@ -4614,7 +4692,7 @@
             "type": "color"
           },
           "font-family": {
-            "value": "{utrecht.document.font-family}",
+            "value": "{almere.document.font-family}",
             "type": "fontFamilies"
           },
           "font-weight": {
@@ -4686,7 +4764,7 @@
             "type": "color"
           },
           "font-family": {
-            "value": "{utrecht.document.font-family}",
+            "value": "{almere.document.font-family}",
             "type": "fontFamilies"
           },
           "line-height": {
@@ -4718,11 +4796,11 @@
           "checked": {
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.white}"
+              "value": "{almere.color.white}"
             },
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.green.600}"
+              "value": "{almere.color.green.600}"
             },
             "border-color": {
               "type": "color",
@@ -4759,7 +4837,7 @@
           }
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-size": {
@@ -4931,7 +5009,7 @@
           "type": "borderWidth"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-weight": {
@@ -4957,7 +5035,7 @@
           "value": "0px"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-size": {
@@ -5149,7 +5227,7 @@
           }
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{almere.document.font-family}",
           "type": "fontFamilies"
         },
         "font-size": {
