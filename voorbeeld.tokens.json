@@ -858,6 +858,65 @@
           "value": "999px",
           "type": "borderRadius"
         }
+      },
+      "box-shadow": {
+        "sm": {
+          "value": {
+            "x": "0",
+            "y": "4",
+            "blur": "12",
+            "spread": "0",
+            "color": "{almere.color.steen.200}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "md": {
+          "value": {
+            "x": "1",
+            "y": "2",
+            "blur": "6",
+            "spread": "0",
+            "color": "{almere.color.water.200}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "lg": {
+          "value": {
+            "x": "0",
+            "y": "5",
+            "blur": "18",
+            "spread": "0",
+            "color": "{almere.color.steen.100}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "inner-shadow": {
+        "input": {
+          "value": {
+            "x": "0",
+            "y": "5",
+            "blur": "15",
+            "spread": "0",
+            "color": "{almere.color.water.100}",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "input-focus": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "8",
+            "spread": "0",
+            "color": "{almere.color.water.100}",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        }
       }
     },
     "voorbeeld": {
@@ -1194,41 +1253,6 @@
             "value": "48px",
             "type": "sizing"
           }
-        }
-      },
-      "box-shadow": {
-        "sm": {
-          "value": {
-            "x": "0",
-            "y": "2",
-            "blur": "6",
-            "spread": "0",
-            "color": "{almere.color.dark.alpha.100}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "md": {
-          "value": {
-            "x": "0",
-            "y": "8",
-            "blur": "16",
-            "spread": "0",
-            "color": "{almere.color.dark.alpha.100}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "lg": {
-          "value": {
-            "x": "0",
-            "y": "16",
-            "blur": "48",
-            "spread": "0",
-            "color": "{almere.color.dark.alpha.100}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
         }
       }
     }
@@ -3217,7 +3241,7 @@
           "type": "color"
         },
         "box-shadow": {
-          "value": "{voorbeeld.box-shadow.lg}",
+          "value": "{almere.box-shadow.lg}",
           "type": "boxShadow"
         }
       }
@@ -3677,7 +3701,7 @@
           "type": "borderRadius"
         },
         "box-shadow": {
-          "value": "{voorbeeld.box-shadow.lg}",
+          "value": "{almere.box-shadow.lg}",
           "type": "boxShadow"
         },
         "header": {
@@ -4753,7 +4777,7 @@
           "value": "{voorbeeld.border-width.sm}"
         },
         "box-block-end-shadow": {
-          "value": "{voorbeeld.box-shadow.lg}",
+          "value": "{almere.box-shadow.lg}",
           "type": "boxShadow"
         },
         "text-decoration": {
@@ -5026,11 +5050,11 @@
         },
         "container": {
           "box-inline-end-shadow": {
-            "value": "{voorbeeld.box-shadow.lg}",
+            "value": "{almere.box-shadow.lg}",
             "type": "boxShadow"
           },
           "box-inline-start-shadow": {
-            "value": "{voorbeeld.box-shadow.lg}",
+            "value": "{almere.box-shadow.lg}",
             "type": "boxShadow"
           }
         }
