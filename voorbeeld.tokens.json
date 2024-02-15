@@ -34,6 +34,10 @@
           "4xl": {
             "value": "52px",
             "type": "fontSizes"
+          },
+          "5xl": {
+            "value": "58px",
+            "type": "fontSizes"
           }
         },
         "line-height": {
@@ -3451,11 +3455,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{almere.typography.line-height.sm}",
+          "value": "{almere.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{almere.typography.font-size.3xl}",
+          "value": "{almere.typography.font-size.4xl}",
           "type": "fontSizes"
         }
       },
