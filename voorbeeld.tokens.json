@@ -42,19 +42,23 @@
         },
         "line-height": {
           "xs": {
-            "value": "21",
+            "value": "100%",
             "type": "lineHeights"
           },
           "sm": {
-            "value": "22",
+            "value": "110%",
             "type": "lineHeights"
           },
           "md": {
-            "value": "25",
+            "value": "125%",
             "type": "lineHeights"
           },
           "lg": {
-            "value": "31",
+            "value": "150%",
+            "type": "lineHeights"
+          },
+          "xl": {
+            "value": "200%",
             "type": "lineHeights"
           }
         },
@@ -1293,34 +1297,12 @@
             "value": "{almere.color.gray.600}",
             "type": "color"
           }
-        },
-        "font-size": {
-          "value": "{almere.typography.font-size.md}",
-          "type": "fontSizes"
-        },
-        "font-weight": {
-          "value": "{almere.typography.font-weight.regular}",
-          "type": "fontWeights"
-        },
-        "strong": {
-          "font-weight": {
-            "value": "{almere.typography.font-weight.bold}",
-            "type": "fontWeights"
-          }
-        },
-        "line-height": {
-          "value": "{almere.typography.line-height.md}",
-          "type": "lineHeights"
         }
       },
       "heading": {
         "color": {
           "value": "{almere.color.gray.900}",
           "type": "color"
-        },
-        "font-weight": {
-          "value": "{almere.typography.font-weight.bold}",
-          "type": "fontWeights"
         }
       },
       "container": {
@@ -1533,26 +1515,6 @@
           }
         }
       },
-      "pointer-target": {
-        "min-size": {
-          "value": "{voorbeeld.size.md}",
-          "type": "sizing"
-        }
-      },
-      "icon": {
-        "functional": {
-          "size": {
-            "value": "{voorbeeld.size.icon.md}",
-            "type": "sizing"
-          }
-        },
-        "toptask": {
-          "size": {
-            "value": "{voorbeeld.size.icon.4xl}",
-            "type": "sizing"
-          }
-        }
-      },
       "feedback": {
         "informative": {
           "background-color": {
@@ -1614,15 +1576,57 @@
     },
     "almere": {
       "document": {
+        "font-size": {
+          "value": "{almere.typography.font-size.md}",
+          "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "{almere.typography.font-weight.regular}",
+          "type": "fontWeights"
+        },
+        "strong": {
+          "font-weight": {
+            "value": "{almere.typography.font-weight.bold}",
+            "type": "fontWeights"
+          }
+        },
+        "line-height": {
+          "value": "{almere.typography.line-height.md}",
+          "type": "lineHeights"
+        },
         "font-family": {
           "value": "{almere.typography.font-family.primary}",
           "type": "fontFamilies"
         }
       },
       "heading": {
+        "font-weight": {
+          "value": "{almere.typography.font-weight.bold}",
+          "type": "fontWeights"
+        },
         "font-family": {
           "value": "{almere.typography.font-family.primary}",
           "type": "fontFamilies"
+        }
+      },
+      "pointer-target": {
+        "min-size": {
+          "value": "{voorbeeld.size.md}",
+          "type": "sizing"
+        }
+      },
+      "icon": {
+        "functional": {
+          "size": {
+            "value": "{voorbeeld.size.icon.md}",
+            "type": "sizing"
+          }
+        },
+        "toptask": {
+          "size": {
+            "value": "{voorbeeld.size.icon.4xl}",
+            "type": "sizing"
+          }
         }
       }
     }
@@ -1676,11 +1680,11 @@
         },
         "button": {
           "font-size": {
-            "value": "{utrecht.document.font-size}",
+            "value": "{almere.document.font-size}",
             "type": "fontSizes"
           },
           "line-height": {
-            "value": "{utrecht.document.line-height}",
+            "value": "{almere.document.line-height}",
             "type": "lineHeights"
           },
           "icon": {
@@ -1690,7 +1694,7 @@
             },
             "size": {
               "type": "sizing",
-              "value": "{utrecht.icon.functional.size}"
+              "value": "{almere.icon.functional.size}"
             }
           },
           "padding-block-end": {
@@ -1786,7 +1790,7 @@
             "type": "fontFamilies"
           },
           "font-weight": {
-            "value": "{utrecht.document.strong.font-weight}",
+            "value": "{almere.document.strong.font-weight}",
             "type": "fontWeights"
           }
         }
@@ -1802,7 +1806,7 @@
             "type": "fontFamilies"
           },
           "font-weight": {
-            "value": "{utrecht.heading.font-weight}",
+            "value": "{almere.heading.font-weight}",
             "type": "fontWeights"
           },
           "line-height": {
@@ -1895,7 +1899,7 @@
           },
           "size": {
             "type": "sizing",
-            "value": "{utrecht.icon.functional.size}"
+            "value": "{almere.icon.functional.size}"
           }
         },
         "negative": {
@@ -1975,12 +1979,12 @@
           "type": "borderRadius"
         },
         "size": {
-          "value": "{utrecht.pointer-target.min-size}",
+          "value": "{almere.pointer-target.min-size}",
           "type": "sizing"
         },
         "icon": {
           "icon-size": {
-            "value": "{utrecht.icon.functional.size}",
+            "value": "{almere.icon.functional.size}",
             "type": "sizing"
           }
         },
@@ -1998,11 +2002,11 @@
             "type": "fontFamilies"
           },
           "font-weight": {
-            "value": "{utrecht.document.strong.font-weight}",
+            "value": "{almere.document.strong.font-weight}",
             "type": "fontWeights"
           },
           "line-height": {
-            "value": "{utrecht.document.line-height}",
+            "value": "{almere.document.line-height}",
             "type": "lineHeights"
           },
           "text-transform": {
@@ -2010,7 +2014,7 @@
             "type": "textCase"
           },
           "font-size": {
-            "value": "{utrecht.document.font-size}",
+            "value": "{almere.document.font-size}",
             "type": "fontSizes"
           }
         },
@@ -2086,7 +2090,7 @@
             "type": "lineHeights"
           },
           "font-weight": {
-            "value": "{utrecht.document.font-weight}",
+            "value": "{almere.document.font-weight}",
             "type": "fontWeights"
           },
           "padding-block-start": {
@@ -2108,7 +2112,7 @@
             "type": "lineHeights"
           },
           "font-weight": {
-            "value": "{utrecht.document.font-weight}",
+            "value": "{almere.document.font-weight}",
             "type": "fontWeights"
           },
           "font-size": {
@@ -2147,18 +2151,18 @@
     "todo": {
       "breadcrumb": {
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "link": {
           "icon": {
             "size": {
               "type": "sizing",
-              "value": "{utrecht.icon.functional.size}"
+              "value": "{almere.icon.functional.size}"
             },
             "margin-inline": {
               "value": "{voorbeeld.space.text.beetle}",
@@ -2249,7 +2253,7 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         }
       }
@@ -2314,7 +2318,7 @@
             }
           },
           "font-weight": {
-            "value": "{utrecht.document.strong.font-weight}",
+            "value": "{almere.document.strong.font-weight}",
             "type": "fontWeights"
           },
           "active": {
@@ -2388,7 +2392,7 @@
             }
           },
           "font-weight": {
-            "value": "{utrecht.document.strong.font-weight}",
+            "value": "{almere.document.strong.font-weight}",
             "type": "fontWeights"
           },
           "active": {
@@ -2429,7 +2433,7 @@
         "icon": {
           "size": {
             "type": "sizing",
-            "value": "{utrecht.icon.functional.size}"
+            "value": "{almere.icon.functional.size}"
           },
           "margin-inline": {
             "value": "{voorbeeld.space.text.beetle}",
@@ -2441,16 +2445,16 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{utrecht.document.strong.font-weight}",
+          "value": "{almere.document.strong.font-weight}",
           "type": "fontWeights"
         },
         "subtle": {
           "font-weight": {
-            "value": "{utrecht.document.strong.font-weight}",
+            "value": "{almere.document.strong.font-weight}",
             "type": "fontWeights"
           },
           "hover": {
@@ -2523,7 +2527,7 @@
           }
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "padding-block-end": {
@@ -2600,11 +2604,11 @@
         },
         "min-block-size": {
           "type": "sizing",
-          "value": "{utrecht.pointer-target.min-size}"
+          "value": "{almere.pointer-target.min-size}"
         },
         "min-inline-size": {
           "type": "sizing",
-          "value": "{utrecht.pointer-target.min-size}"
+          "value": "{almere.pointer-target.min-size}"
         }
       }
     }
@@ -2657,7 +2661,7 @@
         "icon": {
           "size": {
             "type": "sizing",
-            "value": "{utrecht.icon.functional.size}"
+            "value": "{almere.icon.functional.size}"
           }
         },
         "background-color": {
@@ -2939,7 +2943,7 @@
           "type": "fontSizes"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "min-block-size": {
@@ -2951,7 +2955,7 @@
           "value": "{voorbeeld.size.xs}"
         },
         "font-weight": {
-          "value": "{utrecht.document.strong.font-weight}",
+          "value": "{almere.document.strong.font-weight}",
           "type": "fontWeights"
         },
         "border-width": {
@@ -2998,7 +3002,7 @@
         },
         "item-value": {
           "font-weight": {
-            "value": "{utrecht.document.font-weight}",
+            "value": "{almere.document.font-weight}",
             "type": "fontWeights"
           },
           "row": {
@@ -3038,7 +3042,7 @@
         },
         "item-key": {
           "font-weight": {
-            "value": "{utrecht.document.strong.font-weight}",
+            "value": "{almere.document.strong.font-weight}",
             "type": "fontWeights"
           },
           "row": {
@@ -3091,11 +3095,11 @@
           }
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "item-action": {
@@ -3259,15 +3263,15 @@
               "type": "fontFamilies"
             },
             "font-size": {
-              "value": "{utrecht.document.font-size}",
+              "value": "{almere.document.font-size}",
               "type": "fontSizes"
             },
             "font-weight": {
-              "value": "{utrecht.document.strong.font-weight}",
+              "value": "{almere.document.strong.font-weight}",
               "type": "fontWeights"
             },
             "line-height": {
-              "value": "{utrecht.document.line-height}",
+              "value": "{almere.document.line-height}",
               "type": "lineHeights"
             }
           }
@@ -3317,15 +3321,15 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         }
       }
@@ -3337,7 +3341,7 @@
         "icon": {
           "size": {
             "type": "sizing",
-            "value": "{utrecht.icon.functional.size}"
+            "value": "{almere.icon.functional.size}"
           },
           "margin-inline-end": {
             "value": "{voorbeeld.space.text.mouse}",
@@ -3357,15 +3361,15 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         }
       }
@@ -3383,15 +3387,15 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{utrecht.document.strong.font-weight}",
+          "value": "{almere.document.strong.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         }
       }
@@ -3405,11 +3409,11 @@
           "type": "color"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "font-family": {
@@ -3417,7 +3421,7 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "disabled": {
@@ -3440,7 +3444,7 @@
     }
   },
   "components/heading": {
-    "utrecht": {
+    "almere": {
       "heading-1": {
         "color": {
           "type": "color",
@@ -3451,11 +3455,11 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{utrecht.heading.font-weight}",
+          "value": "{almere.heading.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{almere.typography.line-height.md}",
+          "value": "{almere.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
@@ -3473,7 +3477,7 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{utrecht.heading.font-weight}",
+          "value": "{almere.heading.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
@@ -3495,7 +3499,7 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{utrecht.heading.font-weight}",
+          "value": "{almere.heading.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
@@ -3517,7 +3521,7 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{utrecht.heading.font-weight}",
+          "value": "{almere.heading.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
@@ -3539,7 +3543,7 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{utrecht.heading.font-weight}",
+          "value": "{almere.heading.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
@@ -3561,7 +3565,7 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{utrecht.heading.font-weight}",
+          "value": "{almere.heading.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
@@ -3601,7 +3605,7 @@
     "utrecht": {
       "link": {
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "color": {
@@ -3667,7 +3671,7 @@
         "icon": {
           "size": {
             "type": "sizing",
-            "value": "{utrecht.icon.functional.size}"
+            "value": "{almere.icon.functional.size}"
           },
           "margin-inline": {
             "value": "{voorbeeld.space.text.beetle}",
@@ -3675,7 +3679,7 @@
           }
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "font-family": {
@@ -3691,7 +3695,7 @@
           "type": "other"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         }
       }
@@ -3739,15 +3743,15 @@
               "type": "fontFamilies"
             },
             "font-weight": {
-              "value": "{utrecht.document.strong.font-weight}",
+              "value": "{almere.document.strong.font-weight}",
               "type": "fontWeights"
             },
             "font-size": {
-              "value": "{utrecht.document.font-size}",
+              "value": "{almere.document.font-size}",
               "type": "fontSizes"
             },
             "line-height": {
-              "value": "{utrecht.document.line-height}",
+              "value": "{almere.document.line-height}",
               "type": "lineHeights"
             }
           },
@@ -3843,15 +3847,15 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "item": {
@@ -3882,7 +3886,7 @@
             },
             "size": {
               "type": "sizing",
-              "value": "{utrecht.icon.functional.size}"
+              "value": "{almere.icon.functional.size}"
             }
           },
           "padding-block-end": {
@@ -3972,16 +3976,16 @@
             "type": "borderRadius"
           },
           "font-weight": {
-            "value": "{utrecht.document.font-weight}",
+            "value": "{almere.document.font-weight}",
             "type": "fontWeights"
           },
           "min-block-size": {
             "type": "sizing",
-            "value": "{utrecht.pointer-target.min-size}"
+            "value": "{almere.pointer-target.min-size}"
           },
           "min-inline-size": {
             "type": "sizing",
-            "value": "{utrecht.pointer-target.min-size}"
+            "value": "{almere.pointer-target.min-size}"
           },
           "disabled": {
             "background-color": {
@@ -4004,12 +4008,12 @@
             "value": "{voorbeeld.border-width.sm}"
           },
           "font-weight": {
-            "value": "{utrecht.document.font-weight}",
+            "value": "{almere.document.font-weight}",
             "type": "fontWeights"
           },
           "current": {
             "font-weight": {
-              "value": "{utrecht.document.strong.font-weight}",
+              "value": "{almere.document.strong.font-weight}",
               "type": "fontWeights"
             },
             "text-decoration": {
@@ -4117,11 +4121,11 @@
           },
           "min-block-size": {
             "type": "sizing",
-            "value": "{utrecht.pointer-target.min-size}"
+            "value": "{almere.pointer-target.min-size}"
           },
           "min-inline-size": {
             "type": "sizing",
-            "value": "{utrecht.pointer-target.min-size}"
+            "value": "{almere.pointer-target.min-size}"
           }
         },
         "font-family": {
@@ -4129,11 +4133,11 @@
           "type": "fontFamilies"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "ellipses": {
@@ -4158,7 +4162,7 @@
             "type": "color"
           },
           "font-weight": {
-            "value": "{utrecht.document.font-weight}",
+            "value": "{almere.document.font-weight}",
             "type": "fontWeights"
           }
         },
@@ -4168,7 +4172,7 @@
             "type": "color"
           },
           "font-weight": {
-            "value": "{utrecht.document.font-weight}",
+            "value": "{almere.document.font-weight}",
             "type": "fontWeights"
           }
         }
@@ -4187,15 +4191,15 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         }
       },
@@ -4213,11 +4217,11 @@
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         }
       },
@@ -4235,11 +4239,11 @@
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         }
       }
@@ -4453,7 +4457,7 @@
         "icon": {
           "size": {
             "type": "sizing",
-            "value": "{utrecht.icon.functional.size}"
+            "value": "{almere.icon.functional.size}"
           }
         },
         "background-color": {
@@ -4569,15 +4573,15 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "max-inline-size": {
@@ -4614,13 +4618,13 @@
       "sidenav": {
         "link": {
           "line-height": {
-            "value": "{utrecht.document.line-height}",
+            "value": "{almere.document.line-height}",
             "type": "lineHeights"
           },
           "icon": {
             "size": {
               "type": "sizing",
-              "value": "{utrecht.icon.functional.size}"
+              "value": "{almere.icon.functional.size}"
             },
             "margin-inline": {
               "value": "{voorbeeld.space.text.mouse}",
@@ -4628,7 +4632,7 @@
             }
           },
           "font-size": {
-            "value": "{utrecht.document.font-size}",
+            "value": "{almere.document.font-size}",
             "type": "fontSizes"
           },
           "font-family": {
@@ -4636,12 +4640,12 @@
             "type": "fontFamilies"
           },
           "font-weight": {
-            "value": "{utrecht.document.font-weight}",
+            "value": "{almere.document.font-weight}",
             "type": "fontWeights"
           },
           "current": {
             "font-weight": {
-              "value": "{utrecht.document.strong.font-weight}",
+              "value": "{almere.document.strong.font-weight}",
               "type": "fontWeights"
             },
             "color": {
@@ -4707,7 +4711,7 @@
     "utrecht": {
       "skip-link": {
         "font-weight": {
-          "value": "{utrecht.document.strong.font-weight}",
+          "value": "{almere.document.strong.font-weight}",
           "type": "fontWeights"
         },
         "font-family": {
@@ -4715,20 +4719,20 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "min-block-size": {
           "type": "sizing",
-          "value": "{utrecht.pointer-target.min-size}"
+          "value": "{almere.pointer-target.min-size}"
         },
         "min-inline-size": {
           "type": "sizing",
-          "value": "{utrecht.pointer-target.min-size}"
+          "value": "{almere.pointer-target.min-size}"
         },
         "padding-block-end": {
           "value": "{voorbeeld.space.block.snail}",
@@ -4799,11 +4803,11 @@
           "type": "fontSizes"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "font-weight": {
-          "value": "{utrecht.document.strong.font-weight}",
+          "value": "{almere.document.strong.font-weight}",
           "type": "fontWeights"
         },
         "border-width": {
@@ -4902,7 +4906,7 @@
       "table": {
         "header-cell": {
           "line-height": {
-            "value": "{utrecht.document.line-height}",
+            "value": "{almere.document.line-height}",
             "type": "lineHeights"
           },
           "color": {
@@ -4914,11 +4918,11 @@
             "type": "fontFamilies"
           },
           "font-weight": {
-            "value": "{utrecht.document.strong.font-weight}",
+            "value": "{almere.document.strong.font-weight}",
             "type": "fontWeights"
           },
           "font-size": {
-            "value": "{utrecht.document.font-size}",
+            "value": "{almere.document.font-size}",
             "type": "fontSizes"
           }
         },
@@ -4940,7 +4944,7 @@
             "type": "fontFamilies"
           },
           "font-weight": {
-            "value": "{utrecht.heading.font-weight}",
+            "value": "{almere.heading.font-weight}",
             "type": "fontWeights"
           },
           "font-size": {
@@ -4976,15 +4980,15 @@
             "type": "fontFamilies"
           },
           "font-weight": {
-            "value": "{utrecht.document.font-weight}",
+            "value": "{almere.document.font-weight}",
             "type": "fontWeights"
           },
           "line-height": {
-            "value": "{utrecht.document.line-height}",
+            "value": "{almere.document.line-height}",
             "type": "lineHeights"
           },
           "font-size": {
-            "value": "{utrecht.document.font-size}",
+            "value": "{almere.document.font-size}",
             "type": "fontSizes"
           }
         },
@@ -5032,11 +5036,11 @@
         },
         "footer-cell": {
           "font-weight": {
-            "value": "{utrecht.document.strong.font-weight}",
+            "value": "{almere.document.strong.font-weight}",
             "type": "fontWeights"
           },
           "font-size": {
-            "value": "{utrecht.document.font-size}",
+            "value": "{almere.document.font-size}",
             "type": "fontSizes"
           },
           "color": {
@@ -5048,7 +5052,7 @@
             "type": "fontFamilies"
           },
           "line-height": {
-            "value": "{utrecht.document.line-height}",
+            "value": "{almere.document.line-height}",
             "type": "lineHeights"
           }
         },
@@ -5121,15 +5125,15 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "item": {
@@ -5293,15 +5297,15 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         }
       }
@@ -5319,15 +5323,15 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "max-inline-size": {
@@ -5511,15 +5515,15 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{almere.document.font-size}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "{almere.document.font-weight}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{almere.document.line-height}",
           "type": "lineHeights"
         },
         "padding-inline-start": {
