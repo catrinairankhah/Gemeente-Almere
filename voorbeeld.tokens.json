@@ -46,18 +46,14 @@
             "type": "lineHeights"
           },
           "sm": {
-            "value": "110%",
-            "type": "lineHeights"
-          },
-          "md": {
             "value": "125%",
             "type": "lineHeights"
           },
-          "lg": {
+          "md": {
             "value": "150%",
             "type": "lineHeights"
           },
-          "xl": {
+          "lg": {
             "value": "200%",
             "type": "lineHeights"
           }
@@ -3448,7 +3444,7 @@
       "heading-1": {
         "color": {
           "type": "color",
-          "value": "{utrecht.heading.color}"
+          "value": "{almere.color.black}"
         },
         "font-family": {
           "value": "{almere.heading.font-family}",
