@@ -3458,8 +3458,14 @@
           "value": "{almere.typography.line-height.sm}",
           "type": "lineHeights"
         },
+        "large-vp": {
+          "font-size": {
+            "value": "{almere.typography.font-size.5xl}",
+            "type": "fontSizes"
+          }
+        },
         "font-size": {
-          "value": "{almere.typography.font-size.4xl}",
+          "value": "{almere.typography.font-size.md}",
           "type": "fontSizes"
         }
       },
